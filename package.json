@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:github": "GITHUB_PAGES=true next build",
+    "build:github": "cross-env GITHUB_PAGES=true next build",
+    "deploy:github": "npm run build:github && gh-pages -d out",
     "cf-build": "npx @opennextjs/cloudflare build",
     "cf-deploy": "npx @opennextjs/cloudflare deploy",
     "cf-deploy:prod": "npx @opennextjs/cloudflare deploy --env production",
@@ -23,6 +24,8 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.27",
+    "cross-env": "^10.1.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.8",
     "tailwindcss": "3.4",
     "typescript": "^5",
