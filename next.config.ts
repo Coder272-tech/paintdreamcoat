@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
     ? {
         output: "export",
         trailingSlash: true,
+        basePath: "/paintdreamcoat",
+        assetPrefix: "/paintdreamcoat/",
         images: {
           unoptimized: true,
         },

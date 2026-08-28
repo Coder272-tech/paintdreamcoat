@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { siteContent } from "@/lib/content";
 
 export default function Navigation() {
@@ -6,13 +7,13 @@ export default function Navigation() {
       <div className="container-site">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 py-4">
           {siteContent.navigation.map((item) => (
-            <a
+            <Link
               key={item.label}
               href={item.href}
               className="font-semibold transition-all hover:text-red-400 hover:scale-110 px-2 py-1"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </div>
       </div>

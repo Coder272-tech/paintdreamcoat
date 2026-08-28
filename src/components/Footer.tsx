@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { siteContent } from "@/lib/content";
 
 export default function Footer() {
@@ -9,7 +10,11 @@ export default function Footer() {
             <div className="inline-flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-blue-800 shadow-xl mb-4">
               <span className="text-3xl font-bold text-white">DC</span>
             </div>
-            <h3 className="text-2xl font-bold mb-2">Dreamcoat Home Improvement</h3>
+
+            <h3 className="text-2xl font-bold mb-2">
+              Dreamcoat Home Improvement
+            </h3>
+
             <p className="text-gray-300 max-w-2xl mx-auto">
               {siteContent.brand.secondaryTagline}
             </p>
@@ -20,7 +25,7 @@ export default function Footer() {
           {siteContent.navigation
             .filter((item) => item.label !== "News")
             .map((item) => (
-              <a
+              <Link
                 key={item.label}
                 href={item.href}
                 className="hover:text-red-400 transition-colors font-semibold"
@@ -28,7 +33,7 @@ export default function Footer() {
                 {item.label === "Services"
                   ? "Our Services"
                   : item.label}
-              </a>
+              </Link>
             ))}
         </div>
 
@@ -36,6 +41,7 @@ export default function Footer() {
           <p className="text-sm text-gray-400">
             © {new Date().getFullYear()} Dreamcoat Home Improvement. All rights reserved.
           </p>
+
           <p className="text-xs text-gray-500 mt-2">
             God, Family & Country
           </p>
