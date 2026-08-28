@@ -1,0 +1,46 @@
+chatgot was supposed to make this bullshit like this
+
+                    12-COLUMN PAGE GRID
+┌─────────────────────────────────────────────────────────────┐
+│                         TOP NOTICE                           │
+├─────────────────────────────────────────────────────────────┤
+│  LOGO / BRAND                         PHONE / TAGLINE         │
+├─────────────────────────────────────────────────────────────┤
+│ HOME | SERVICES | ABOUT | NEWS | MERCY FUND | CONTACT       │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│                     HERO IMAGE                              │
+│                                                             │
+│               DREAMCOAT Quality Painting                    │
+│             and Home Improvement Services                   │
+│                    [GET STARTED]                            │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│                    WELCOME TO DREAMCOAT                     │
+│                                                             │
+│                    introductory copy                        │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│        SERVICES — 3 COLUMN SUBGRID                          │
+│                                                             │
+│   PAINTING       CARPENTRY          DECK & PATIO            │
+│   [image]        [image]             [image]                │
+│                                                             │
+│   ACCENT WALLS   DOORS & WINDOWS     HANDYMAN               │
+│   [image]        [image]             [image]                │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│                 COMMUNITY / MISSION                         │
+│                                                             │
+│ [IMAGE]       [IMAGE]        [IMAGE]                        │
+│ nonprofit     chamber        corporate                      │
+│ story         award          motto                          │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│                         FOOTER                              │
+└─────────────────────────────────────────────────────────────┘
+
+are you able to fix it?
