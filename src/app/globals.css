@@ -56,3 +56,16 @@ img {
     padding-right: 2rem;
   }
 }
+
+/* 12-Column Grid System */
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .grid-12 {
+    gap: 2rem;
+  }
+}

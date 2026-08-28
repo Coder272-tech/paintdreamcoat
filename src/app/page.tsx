@@ -17,8 +17,8 @@ export default function HomePage() {
         <Hero />
         <Introduction />
         <Services />
-        <News />
         <Mission />
+        <News />
       </main>
 
       <Footer />
