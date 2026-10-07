@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:github": "cross-env GITHUB_PAGES=true next build",
-    "deploy:github": "npm run build:github && gh-pages -d out",
+    "deploy:github": "npm run build:github && gh-pages -d out -t",
     "cf-build": "npx @opennextjs/cloudflare build",
     "cf-deploy": "npx @opennextjs/cloudflare deploy",
     "cf-deploy:prod": "npx @opennextjs/cloudflare deploy --env production",
