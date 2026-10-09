@@ -95,6 +95,15 @@ export const siteContent = {
   ] satisfies Service[],
 
   news: [
+  {
+      title: "EWTN News Nightly: The Opioid Crisis & Recovery",
+      heading: "National Media Coverage",
+      subtitle:
+        "EWTN News Nightly Features Dave Druitt and Dan Stendeback on Catholic Charities' Welcome Home Program",
+      body:
+        "EWTN News Nightly covered the national opioid public health emergency, highlighting the story of Dan Stendeback, a Catholic father of two who found recovery and housing through Arlington diocesan Catholic Charities and his mentor, Dave Druitt.",
+      href: "https://www.youtube.com/watch?v=-cPlILpB_QA&index=1&list=PL9CQlldupc5_STtOyJ3gnmbEWyFDpRzw-&t=235s"
+    },
     {
       title: "Catholic Charities Helps Ex-Offenders",
       subtitle:
