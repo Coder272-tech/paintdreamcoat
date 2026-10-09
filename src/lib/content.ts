@@ -37,7 +37,8 @@ export const siteContent = {
     { label: "Services", href: "/home-improvement-services" },
     { label: "About", href: "/about-us" },
     { label: "News", href: "/articles" },
-    { label: "The Mercy Fund", href: "/dreamcoat-mercy-fund" },
+   // { label: "The Mercy Fund", href: "/dreamcoat-mercy-fund" },
+   { label: "The Seed", href: "/the-seed-is-sprouting" }, // Replaces The Mercy Fund
     { label: "Contact", href: "/contact-dreamcoat" }
   ],
 
@@ -100,7 +101,7 @@ export const siteContent = {
         "Dave Druitt Mentors Dan Stendeback, a Member of the Catholic Charities Welcome Home Re-Entry Program",
       body:
         "Arlington diocesan Catholic Charities is trying to help ex-offenders, like Stendeback, as part of their Welcome Home Re-Entry Program. Stendeback became the program’s first client after being released from the Fairfax Adult Detention Center Oct. 11. Dave Druitt, his mentor, got him involved in the pilot program “for people who want to go into a sober living house.”",
-      href: "/article/catholic-charities-helps-ex-offenders"
+      href: "https://catholicherald.com/article/local/catholic-charities-helps-former-prisoners-get-back-on-their-feet/"
     },
     {
       title: "Chamber of Commerce Awards Ceremony",
@@ -108,7 +109,7 @@ export const siteContent = {
       subtitle: "The Greater Springfield Chamber of Commerce",
       body:
         "Veteran Community Service Award recipient Druitt is a Vietnam veteran who turned to trouble and drinking when he returned from war. He worked for a national security team for 25 years — until his PTSD flared up in a way that pushed him to seek a spiritual solution. A near fatal auto accident in 2001 finalized his decision. Soon his life revolved around church, prayer groups, prison ministries and Alcoholics Anonymous.",
-      href: "/article/chamber-commerce-awards-ceremony"
+      href: "/articles/chamber-commerce-awards-ceremony"
     }
   ] satisfies NewsArticle[],
 
